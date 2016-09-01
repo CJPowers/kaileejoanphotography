@@ -1,0 +1,19 @@
+.top-header {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    color: #555555;
+    width: 100%;
+    background: #fff;
+}
+
+.logo {
+    height: 100%;
+    background: #99CCEE;
+    color: #fff;
+
+}
+
+.logo img {
+    height: 100%;
+}
