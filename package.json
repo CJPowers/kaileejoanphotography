@@ -5,8 +5,9 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress"
+    "start": "node api/server.js",
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "",
@@ -28,6 +29,7 @@
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.6",
+    "cors": "^2.8.0",
     "express": "^4.14.0",
     "express-session": "^1.14.0",
     "imports-loader": "^0.6.5",

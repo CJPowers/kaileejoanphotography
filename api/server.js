@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-// var cors = require('cors');
+var cors = require('cors');
 // var massive = require('massive');
 var path = require('path');
 var config = require('../config.json');
