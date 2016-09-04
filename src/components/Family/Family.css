@@ -1,0 +1,13 @@
+.family {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.family h2 {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+}

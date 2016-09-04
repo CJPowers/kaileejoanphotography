@@ -1,0 +1,8 @@
+.weddings {
+  display: flex;
+  justify-content: center;
+}
+
+.weddings h2 {
+  font-size: 2rem;
+}

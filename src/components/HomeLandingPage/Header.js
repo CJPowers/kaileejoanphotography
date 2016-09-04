@@ -9,10 +9,13 @@ const Header = () => {
         return (
             <div className="header">
                 <div className="header-menu-options">
-                    <div>Engagements</div>
-                    <div>Family</div>
-                    <div>Portraits</div>
-                    <div><Link to="chart">More</Link></div>
+                  <div><Link to='/'>Home</Link></div>
+                  <div><Link to='engagements'>Engagements</Link></div>
+                  <div><Link to='weddings'>Weddings</Link></div>
+                  <div><Link to='family'>Family</Link></div>
+                  <div><Link to='portraits'>Portraits</Link></div>
+                  <div><Link to='contact'>Contact</Link></div>
+                  <div><Link to='bio'>Bio</Link></div>
                 </div>
             </div>
         )

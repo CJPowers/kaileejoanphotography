@@ -1,0 +1,8 @@
+.engagements {
+  display: flex;
+  justify-content: center;
+}
+
+.engagements h2 {
+  font-size: 2rem;
+}

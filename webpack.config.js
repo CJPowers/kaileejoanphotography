@@ -30,6 +30,10 @@ module.exports = {
                     presets: ['react', 'es2015']
                 }
             },
+            {
+              test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+              loader: 'imports?define=>false&this=>window'
+            },
             {test: /\.css$/, loader: 'style!css', exclude: /node_modules/},
             {test: /\.png$/, loader: 'url-loader?limit=10000', exclude: /node_modules/}
         ]

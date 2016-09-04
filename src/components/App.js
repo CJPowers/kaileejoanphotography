@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import HomePage from './HomeLandingPage/HomePage';
 
 class App extends React.Component {
     render() {

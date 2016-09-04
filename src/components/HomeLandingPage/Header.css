@@ -1,14 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel';
+
 .header {
     display: flex;
     justify-content: center;
     height: 60px;
-    color: #555555;
+    color: #9C9C9C;
     width: 100%;
     background: #fff;
+    font-family: 'Cinzel', serif;
 }
 
 .header a:hover {
-    color:#99CCEE;
+    color:#CCCCCC;
     text-decoration: none;
 }
 
@@ -18,7 +21,8 @@
 
 .header-menu-options {
     height: 100%;
-    width: 600px;
+    width: 80%;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,7 +30,7 @@
 }
 
 .header-menu-options div:hover {
-    color: #99CCEE;
+    color: #CCCCCC;
     cursor: pointer;
 
 }

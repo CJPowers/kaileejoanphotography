@@ -7,7 +7,7 @@ require('./TopHeader.css');
 const TopHeader = () => {
         return (
             <div className="top-header">
-                <div className="logo"><img src='https://static.wixstatic.com/media/30d0d6_0be04e063a9d4c5c99356ed591120a13~mv2.jpg/v1/crop/x_3,y_191,w_771,h_324/fill/w_896,h_378,al_c,lg_1,q_80/30d0d6_0be04e063a9d4c5c99356ed591120a13~mv2.jpg' alt="kaileejoanphotography"/></div>
+                <div className="logo"><Link to='/'><img src='https://s3-us-west-2.amazonaws.com/kaileejoanphotography/assets/logo.jpg' alt="kaileejoanphotography"/></Link></div>
             </div>
         )
     }

@@ -6,7 +6,7 @@ require('./Footer.css');
 const Footer = () => {
     return (
         <div className="footer">
-            <div>kaileejoanphotography 2016</div>
+            <div>&#169;2016 By Kailee Burdette</div>
         </div>
     )
 }
