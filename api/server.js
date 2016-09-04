@@ -67,6 +67,6 @@ app.use(cors());
 // app.get('/api/messages/', messageController.read);
 //
 
-app.listen(port, function() {
+app.listen(process.env.PORT || port, function() {
     console.log("Started server on port ", port);
 });
