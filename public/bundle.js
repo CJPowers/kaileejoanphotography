@@ -63007,7 +63007,7 @@
 
 
 	// module
-	exports.push([module.id, ".img-container {\n  width: 90%;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.img-div {\n  width: 100%;\n}\n\n.img-div img {\n  width: 100%;\n}\n\n@media (min-width: 600px) {\n  .img-div {\n    width: calc(100%/2);\n  }\n}\n\n@media (min-width: 900px) {\n  .img-container {\n    max-width: 1000px;\n  }\n  .img-div {\n    width: calc(100%/3);\n  }\n}\n", ""]);
+	exports.push([module.id, ".img-container {\n  width: 90%;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.img-div {\n  width: 100%;\n}\n\n.img-div img {\n  width: 100%;\n}\n\n/* Portrait and Landscape */\n@media only screen\n  and (min-device-width: 375px)\n  and (max-device-width: 667px)\n  and (-webkit-min-device-pixel-ratio: 2) {\n    .img-container {\n      width: 90%;\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n    }\n\n    .img-div {\n      width: 100%;\n    }\n\n    .img-div img {\n      width: 100%;\n    }\n\n}\n\n/* Portrait */\n@media only screen\n  and (min-device-width: 375px)\n  and (max-device-width: 667px)\n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: portrait) {\n    .img-container {\n      width: 90%;\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n    }\n\n    .img-div {\n      width: calc(100%/2);\n    }\n\n    .img-div img {\n      width: 100%;\n    }\n\n}\n\n@media (min-width: 600px) {\n  .img-div {\n    width: calc(100%/2);\n  }\n}\n\n@media (min-width: 900px) {\n  .img-container {\n    max-width: 1000px;\n  }\n  .img-div {\n    width: calc(100%/3);\n  }\n}\n", ""]);
 
 	// exports
 
