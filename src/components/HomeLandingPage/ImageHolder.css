@@ -13,6 +13,51 @@
   width: 100%;
 }
 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .img-container {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .img-div {
+      width: 100%;
+    }
+
+    .img-div img {
+      width: 100%;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .img-container {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .img-div {
+      width: calc(100%/2);
+    }
+
+    .img-div img {
+      width: 100%;
+    }
+
+}
+
 @media (min-width: 600px) {
   .img-div {
     width: calc(100%/2);
