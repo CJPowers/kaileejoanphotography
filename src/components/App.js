@@ -21,6 +21,7 @@ App.propTypes = {
 
 function mapStateToProps(state, ownProps) {
     return {
+      twitter: state
     };
 }
 

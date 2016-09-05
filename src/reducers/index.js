@@ -1,9 +1,9 @@
 import {combineReducers} from 'redux';
-import twitter from './twitterReducer';
+import menu from './menuReducer';
 
 
 const rootReducer = combineReducers({
-    twitter
+    menu
 });
 
 export default rootReducer;

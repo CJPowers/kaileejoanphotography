@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
-import Counter from './components/Counter';
 import HomePage from './components/HomeLandingPage/HomePage';
 import Weddings from './components/Weddings/Weddings';
 import Engagements from './components/Engagements/Engagements';
@@ -14,7 +13,6 @@ import MainContent from './components/HomeLandingPage/MainContent';
 export default (
     <Route path="/" component={HomePage}>
         <IndexRoute component={MainContent} />
-        <Route path="/counter" component={Counter} />
         <Route path="/weddings" component={Weddings} />
         <Route path="/engagements" component={Engagements} />
         <Route path="/family" component={Family} />

@@ -13,6 +13,23 @@
   width: 100%;
 }
 
+
+
+@media (min-width: 600px) {
+  .img-div {
+    width: calc(100%/2);
+  }
+}
+
+@media (min-width: 900px) {
+  .img-container {
+    max-width: 1000px;
+  }
+  .img-div {
+    width: calc(100%/3);
+  }
+}
+
 /* Portrait and Landscape */
 @media only screen
   and (min-device-width: 375px)
@@ -56,19 +73,4 @@
       width: 100%;
     }
 
-}
-
-@media (min-width: 600px) {
-  .img-div {
-    width: calc(100%/2);
-  }
-}
-
-@media (min-width: 900px) {
-  .img-container {
-    max-width: 1000px;
-  }
-  .img-div {
-    width: calc(100%/3);
-  }
 }

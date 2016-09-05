@@ -16,11 +16,12 @@ class HomePage extends React.Component {
           this.state = {}
       }
     render(){
+        console.log('these are the props from app.js', this.props);
         return (
             <div className='homepage'>
-                <TopHeader />
-                <Header />
-                <div className='body-container'>
+                <TopHeader
+                  showHamburger={this.props.showHamburger} />
+\                <div className='body-container'>
                   {this.props.children}
                 </div>
                 <Footer />
@@ -30,6 +31,7 @@ class HomePage extends React.Component {
 }
 function mapStateToProps(state, ownProps) {
     return {
+      showHamburger: state.menu.showHamburger
     };
 }
 
