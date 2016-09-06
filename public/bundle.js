@@ -91135,7 +91135,7 @@
 
 
 	// module
-	exports.push([module.id, ".about-img {\n  width: 85%\n}\n\n.about-img img {\n  width: 100%\n}\n\n.bio-paragraph {\n  width: 85%;\n  text-align: left;\n}\n", ""]);
+	exports.push([module.id, ".about-img {\n  width: 85%\n}\n\n.about-img img {\n  width: 100%\n}\n\n.bio-paragraph {\n  width: 85%;\n  text-align: left;\n  font-size: 1.8rem;\n  margin-top: 15px;\n  font-family: \"Times New Roman\", Georgia, Serif;\n  font-style: italic;\n}\n\n@media (min-width: 768px) {\n  .bio-paragraph {\n    font-size: 1.4rem;\n    line-height: 28px;\n  }\n}\n", ""]);
 
 	// exports
 

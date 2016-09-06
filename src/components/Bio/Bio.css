@@ -9,4 +9,15 @@
 .bio-paragraph {
   width: 85%;
   text-align: left;
+  font-size: 1.8rem;
+  margin-top: 15px;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .bio-paragraph {
+    font-size: 1.4rem;
+    line-height: 28px;
+  }
 }
