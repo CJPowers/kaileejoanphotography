@@ -9,7 +9,7 @@
 }
 
 .logo {
-    height: 120px;
+    height: 110px;
     background: #99CCEE;
     color: #fff;
 
@@ -21,7 +21,7 @@
 
 .hamburger {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 20px;
 }
 
@@ -38,6 +38,7 @@
     display: none;
   }
   .reg-header {
+    width: 100%;
     display: inherit;
   }
 }

@@ -52,16 +52,18 @@
   }
   .header-menu-options {
       height: 100%;
-      width: 80%;
+      width: 90%;
       font-size: 1.2rem;
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
   }
   .header-menu-options div {
-    text-align: center;
+    text-align: inherit;;
     width: auto;
     border: none;
+  }
+  .header-menu-options div:not(:last-child) {
   }
 }
 
