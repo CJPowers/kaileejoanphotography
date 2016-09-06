@@ -39387,7 +39387,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel);", ""]);
 
 	// module
-	exports.push([module.id, ".header {\n    display: flex;\n    justify-content: center;\n    color: #9C9C9C;\n    width: 100%;\n    background: #fff;\n    font-family: 'Cinzel', serif;\n}\n\n.header a:hover {\n    color:#CCCCCC;\n    text-decoration: none;\n}\n\n.header a:visited:active {\n    text-decoration: none;\n}\n\n.header-menu-options {\n    height: 100%;\n    width: 100%;\n    font-size: 2.8rem;\n    display: flex;\n    flex-direction: column;;\n    align-items: center;\n    justify-content: center;;\n}\n\n.header-menu-options div:hover {\n    color: #CCCCCC;\n    cursor: pointer;\n\n}\n\n.header-menu-options div {\n  text-align: center;\n  width: 100%;\n  border: .5px solid gray;\n}\n\n@media (min-width: 768px) {\n  .header {\n      display: flex;\n      justify-content: center;\n      height: 80px;\n      color: #9C9C9C;\n      width: 100%;\n      background: #fff;\n      font-family: 'Cinzel', serif;\n  }\n  .header-menu-options {\n      height: 100%;\n      width: 80%;\n      font-size: 1.2rem;\n      flex-direction: row;\n      align-items: center;\n      justify-content: space-around;\n  }\n  .header-menu-options div {\n    text-align: center;\n    width: auto;\n    border: none;\n  }\n}\n\n@media (min-width: 1000px) {\n  .header-menu-options {\n      font-size: 1.8rem;\n  }\n}\n", ""]);
+	exports.push([module.id, ".header {\n    display: flex;\n    justify-content: center;\n    color: #9C9C9C;\n    width: 100%;\n    background: #fff;\n    font-family: 'Cinzel', serif;\n}\n\n.header a:hover {\n    color:#CCCCCC;\n    text-decoration: none;\n}\n\n.header a:visited:active {\n    text-decoration: none;\n}\n\n.header-menu-options {\n    height: 100%;\n    width: 100%;\n    font-size: 2.8rem;\n    display: flex;\n    flex-direction: column;;\n    align-items: center;\n    justify-content: center;;\n}\n\n.header-menu-options div:hover {\n    color: #CCCCCC;\n    cursor: pointer;\n\n}\n\n.header-menu-options div {\n  text-align: center;\n  width: 100%;\n  border: .5px solid gray;\n}\n\n@media (min-width: 768px) {\n  .header {\n      display: flex;\n      justify-content: center;\n      height: 80px;\n      color: #9C9C9C;\n      width: 100%;\n      background: #fff;\n      font-family: 'Cinzel', serif;\n  }\n  .header-menu-options {\n      height: 100%;\n      width: 90%;\n      font-size: 1.2rem;\n      flex-direction: row;\n      align-items: center;\n      justify-content: space-around;\n  }\n  .header-menu-options div {\n    text-align: inherit;;\n    width: auto;\n    border: none;\n  }\n  .header-menu-options div:not(:last-child) {\n  }\n}\n\n@media (min-width: 1000px) {\n  .header-menu-options {\n      font-size: 1.8rem;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -52938,7 +52938,7 @@
 
 
 	// module
-	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 120px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 50px;\n  left: 20px;\n}\n\n.reg-header {\n  display: none;\n}\n@media (min-width: 768px) {\n  .logo {\n      height: 180px;\n      background: #99CCEE;\n      color: #fff;\n  }\n  .hamburger {\n    display: none;\n  }\n  .reg-header {\n    display: inherit;\n  }\n}\n", ""]);
+	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 110px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 40px;\n  left: 20px;\n}\n\n.reg-header {\n  display: none;\n}\n@media (min-width: 768px) {\n  .logo {\n      height: 180px;\n      background: #99CCEE;\n      color: #fff;\n  }\n  .hamburger {\n    display: none;\n  }\n  .reg-header {\n    width: 100%;\n    display: inherit;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -91135,7 +91135,7 @@
 
 
 	// module
-	exports.push([module.id, ".about-img {\n  width: 85%\n}\n\n.about-img img {\n  width: 100%\n}\n\n.bio-paragraph {\n  width: 85%;\n  text-align: left;\n  font-size: 1.8rem;\n  margin-top: 15px;\n  font-family: \"Times New Roman\", Georgia, Serif;\n  font-style: italic;\n}\n\n@media (min-width: 768px) {\n  .bio-paragraph {\n    font-size: 1.4rem;\n    line-height: 28px;\n  }\n}\n", ""]);
+	exports.push([module.id, ".about-img {\n  width: 85%\n}\n\n.about-img img {\n  width: 100%\n}\n\n.bio-paragraph {\n  width: 85%;\n  text-align: left;\n  font-size: 1.2rem;\n  margin-top: 15px;\n  font-family: \"Times New Roman\", Georgia, Serif;\n  font-style: italic;\n}\n\n@media (min-width: 768px) {\n  .bio-paragraph {\n    font-size: 1.4rem;\n    line-height: 28px;\n  }\n}\n", ""]);
 
 	// exports
 
