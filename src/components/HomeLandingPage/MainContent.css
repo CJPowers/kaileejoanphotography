@@ -22,7 +22,7 @@
 .container {
   margin: 0 auto;
   padding: 40px;
-  width: 50%;
+  width: 90%;
   color: #333;
   background: #fff;
 }
@@ -35,4 +35,10 @@
 
 .slider-img-div img {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
 }

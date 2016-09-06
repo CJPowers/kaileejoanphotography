@@ -30,13 +30,13 @@ const images = dataset.map(image=>{
 })
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
 };
 
 class MainContent extends React.Component {

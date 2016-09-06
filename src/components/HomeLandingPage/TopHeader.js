@@ -48,6 +48,7 @@ class TopHeader extends React.Component {
                     animationDuration={0.5} />
                 </div>
                 {menu}
+                <div className='reg-header'><Header /></div>
             </div>
           )
         }
