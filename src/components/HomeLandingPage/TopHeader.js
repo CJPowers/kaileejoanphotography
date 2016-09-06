@@ -39,8 +39,8 @@ class TopHeader extends React.Component {
                   <HamburgerMenu
                     isOpen={this.state.open}
                     menuClicked={this.handleClick.bind(this)}
-                    width={18}
-                    height={15}
+                    width={50}
+                    height={36}
                     strokeWidth={1}
                     rotate={0}
                     color='gray'

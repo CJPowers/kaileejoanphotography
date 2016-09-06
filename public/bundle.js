@@ -36180,8 +36180,8 @@
 	          _react2.default.createElement(_reactHamburgerMenu2.default, {
 	            isOpen: this.state.open,
 	            menuClicked: this.handleClick.bind(this),
-	            width: 18,
-	            height: 15,
+	            width: 50,
+	            height: 36,
 	            strokeWidth: 1,
 	            rotate: 0,
 	            color: 'gray',
@@ -39382,7 +39382,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel);", ""]);
 
 	// module
-	exports.push([module.id, ".header {\n    display: flex;\n    justify-content: center;\n    height: 300px;\n    color: #9C9C9C;\n    width: 100%;\n    background: #fff;\n    font-family: 'Cinzel', serif;\n}\n\n.header a:hover {\n    color:#CCCCCC;\n    text-decoration: none;\n}\n\n.header a:visited:active {\n    text-decoration: none;\n}\n\n.header-menu-options {\n    height: 100%;\n    width: 100%;\n    font-size: 2rem;\n    display: flex;\n    flex-direction: column;;\n    align-items: center;\n    justify-content: center;;\n}\n\n.header-menu-options div:hover {\n    color: #CCCCCC;\n    cursor: pointer;\n\n}\n\n.header-menu-options div {\n  text-align: center;\n  width: 100%;\n  border: .5px solid gray;\n}\n\n@media (max-width: 800px) {\n  .header {\n      display: flex;\n      justify-content: center;\n      height: 80px;\n      color: #9C9C9C;\n      width: 100%;\n      background: #fff;\n      font-family: 'Cinzel', serif;\n  }\n  .header-menu-options {\n      height: 100%;\n      width: 80%;\n      font-size: 1.2rem;\n      flex-direction: row;\n      align-items: center;\n      justify-content: space-around;\n  }\n  .header-menu-options div {\n    text-align: center;\n    width: auto;\n    border: none;\n  }\n}\n\n@media (min-width: 1000px) {\n  .header-menu-options {\n      font-size: 1.8rem;\n  }\n}\n\n@media only screen and (max-width: 768px) {\n  .header {\n      display: flex;\n      justify-content: center;\n      height: 300px;\n      color: #9C9C9C;\n      width: 100%;\n      background: #fff;\n      font-family: 'Cinzel', serif;\n  }\n\n  .header a:hover {\n      color:#CCCCCC;\n      text-decoration: none;\n  }\n\n  .header a:visited:active {\n      text-decoration: none;\n  }\n\n  .header-menu-options {\n      height: 100%;\n      width: 100%;\n      font-size: 2rem;\n      display: flex;\n      flex-direction: column;;\n      align-items: center;\n      justify-content: center;;\n  }\n\n  .header-menu-options div:hover {\n      color: #CCCCCC;\n      cursor: pointer;\n\n  }\n\n  .header-menu-options div {\n    text-align: center;\n    width: 100%;\n    border: .5px solid gray;\n  }\n}\n", ""]);
+	exports.push([module.id, ".header {\n    display: flex;\n    justify-content: center;\n    color: #9C9C9C;\n    width: 100%;\n    background: #fff;\n    font-family: 'Cinzel', serif;\n}\n\n.header a:hover {\n    color:#CCCCCC;\n    text-decoration: none;\n}\n\n.header a:visited:active {\n    text-decoration: none;\n}\n\n.header-menu-options {\n    height: 100%;\n    width: 100%;\n    font-size: 2.8rem;\n    display: flex;\n    flex-direction: column;;\n    align-items: center;\n    justify-content: center;;\n}\n\n.header-menu-options div:hover {\n    color: #CCCCCC;\n    cursor: pointer;\n\n}\n\n.header-menu-options div {\n  text-align: center;\n  width: 100%;\n  border: .5px solid gray;\n}\n\n@media (min-width: 768px) {\n  .header {\n      display: flex;\n      justify-content: center;\n      height: 80px;\n      color: #9C9C9C;\n      width: 100%;\n      background: #fff;\n      font-family: 'Cinzel', serif;\n  }\n  .header-menu-options {\n      height: 100%;\n      width: 80%;\n      font-size: 1.2rem;\n      flex-direction: row;\n      align-items: center;\n      justify-content: space-around;\n  }\n  .header-menu-options div {\n    text-align: center;\n    width: auto;\n    border: none;\n  }\n}\n\n@media (min-width: 1000px) {\n  .header-menu-options {\n      font-size: 1.8rem;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -52933,7 +52933,7 @@
 
 
 	// module
-	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 180px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 10px;\n  left: 10px;\n}\n", ""]);
+	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 120px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 35px;\n  left: 25px;\n}\n@media (min-width: 768px) {\n  .logo {\n      height: 180px;\n      background: #99CCEE;\n      color: #fff;\n  }\n  .hamburger {\n    display: none;\n  }\n}\n", ""]);
 
 	// exports
 
