@@ -36057,7 +36057,6 @@
 	                { className: 'homepage' },
 	                _react2.default.createElement(_TopHeader2.default, {
 	                    showHamburger: this.props.showHamburger }),
-	                '\\                ',
 	                _react2.default.createElement(
 	                    'div',
 	                    { className: 'body-container' },
@@ -68042,7 +68041,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	    value: true
+	  value: true
 	});
 
 	var _react = __webpack_require__(298);
@@ -68056,15 +68055,41 @@
 	__webpack_require__(692);
 
 	var Footer = function Footer() {
-	    return _react2.default.createElement(
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'footer' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'inner-footer' },
+	      _react2.default.createElement(
 	        'div',
-	        { className: 'footer' },
+	        { className: 'copyright' },
+	        '©2016 By Kailee Burdette'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'social-media-holder' },
 	        _react2.default.createElement(
-	            'div',
-	            null,
-	            '©2016 By Kailee Burdette'
+	          'div',
+	          { className: 'social-media-icon' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.facebook.com/KaileeJoanPhotography/?fref=ts&ref=br_tf' },
+	            _react2.default.createElement('img', { src: 'https://static.wixstatic.com/media/d3470ec8ca26475da4b228f0199b5d3d.png/v1/fill/w_40,h_40,al_c,usm_0.66_1.00_0.01/d3470ec8ca26475da4b228f0199b5d3d.png' })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'social-media-icon' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.instagram.com/kaileejoan_photography/?hl=en' },
+	            _react2.default.createElement('img', { src: 'https://static.wixstatic.com/media/530d907aaf7648c89c79be7eea724d9c.png/v1/fill/w_40,h_40,al_c,usm_0.66_1.00_0.01/530d907aaf7648c89c79be7eea724d9c.png' })
+	          )
 	        )
-	    );
+	      )
+	    )
+	  );
 	};
 
 	exports.default = Footer;
@@ -68104,7 +68129,7 @@
 
 
 	// module
-	exports.push([module.id, ".footer {\n    height: 50px;\n    width: 100%;\n    margin-top: 30px;\n    font-weight: 100;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n", ""]);
+	exports.push([module.id, ".footer {\n    height: 50px;\n    width: 100%;\n    margin-top: 30px;\n    font-weight: 100;\n    display: flex;\n    justify-content: center;\n}\n\n.inner-footer{\n  width: 85%;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.copyright {\n\n}\n\n.social-media-holder {\n  width: 60px;\n  height: 20px;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.social-media-icon {\n  height: 20px;\n  width: calc(100%/3);\n}\n\n.social-media-icon a {\n  height: 100%;\n}\n\n.social-media-icon img {\n  height: 100%;\n}\n", ""]);
 
 	// exports
 

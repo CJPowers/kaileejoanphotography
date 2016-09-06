@@ -21,7 +21,7 @@ class HomePage extends React.Component {
             <div className='homepage'>
                 <TopHeader
                   showHamburger={this.props.showHamburger} />
-\                <div className='body-container'>
+                <div className='body-container'>
                   {this.props.children}
                 </div>
                 <Footer />
