@@ -36188,7 +36188,12 @@
 	            borderRadius: 0,
 	            animationDuration: 0.5 })
 	        ),
-	        menu
+	        menu,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'reg-header' },
+	          _react2.default.createElement(_Header2.default, null)
+	        )
 	      );
 	    }
 	  }]);
@@ -52933,7 +52938,7 @@
 
 
 	// module
-	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 120px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 35px;\n  left: 25px;\n}\n@media (min-width: 768px) {\n  .logo {\n      height: 180px;\n      background: #99CCEE;\n      color: #fff;\n  }\n  .hamburger {\n    display: none;\n  }\n}\n", ""]);
+	exports.push([module.id, ".top-header {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    color: #555555;\n    width: 100%;\n    background: #fff;\n}\n\n.logo {\n    height: 120px;\n    background: #99CCEE;\n    color: #fff;\n\n}\n\n.logo img {\n    height: 100%;\n}\n\n.hamburger {\n  position: absolute;\n  top: 50px;\n  left: 20px;\n}\n\n.reg-header {\n  display: none;\n}\n@media (min-width: 768px) {\n  .logo {\n      height: 180px;\n      background: #99CCEE;\n      color: #fff;\n  }\n  .hamburger {\n    display: none;\n  }\n  .reg-header {\n    display: inherit;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -52993,13 +52998,13 @@
 	});
 
 	var settings = {
-	  dots: true,
+	  dots: false,
 	  infinite: true,
 	  speed: 500,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  autoplay: true,
-	  autoplaySpeed: 2000
+	  autoplaySpeed: 3000
 	};
 
 	var MainContent = function (_React$Component) {
@@ -55047,7 +55052,7 @@
 
 
 	// module
-	exports.push([module.id, ".main-content {\n    height: 580px;\n    padding-top: 45px;\n    font-weight: 100;\n    margin-top: 60px;\n}\n\n.main-content h2 {\n    color: #fff;\n    text-align: center;\n    font-size: 44px;\n}\n\n.main-content p {\n    margin-top: 22px;\n    text-align: center;\n    color: #fff;\n    width: 700px;\n    font-size: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 40px;\n  width: 50%;\n  color: #333;\n  background: #fff;\n}\n\n.slider-img-div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.slider-img-div img {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, ".main-content {\n    height: 580px;\n    padding-top: 45px;\n    font-weight: 100;\n    margin-top: 60px;\n}\n\n.main-content h2 {\n    color: #fff;\n    text-align: center;\n    font-size: 44px;\n}\n\n.main-content p {\n    margin-top: 22px;\n    text-align: center;\n    color: #fff;\n    width: 700px;\n    font-size: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 40px;\n  width: 90%;\n  color: #333;\n  background: #fff;\n}\n\n.slider-img-div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.slider-img-div img {\n  width: 100%;\n}\n\n@media (min-width: 768px) {\n  .container {\n    width: 50%;\n  }\n}\n", ""]);
 
 	// exports
 
@@ -73761,7 +73766,7 @@
 
 
 	// module
-	exports.push([module.id, ".img-container {\n  width: 90%;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.img-div {\n  width: 100%;\n}\n\n.img-div img {\n  width: 100%;\n}\n\n\n\n@media (min-width: 600px) {\n  .img-div {\n    width: calc(100%/2);\n  }\n}\n\n@media (min-width: 900px) {\n  .img-container {\n    max-width: 1000px;\n  }\n  .img-div {\n    width: calc(100%/3);\n  }\n}\n\n/* Portrait and Landscape */\n@media only screen\n  and (min-device-width: 375px)\n  and (max-device-width: 667px)\n  and (-webkit-min-device-pixel-ratio: 2) {\n    .img-container {\n      width: 90%;\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n    }\n\n    .img-div {\n      width: 100%;\n    }\n\n    .img-div img {\n      width: 100%;\n    }\n\n}\n\n/* Portrait */\n@media only screen\n  and (min-device-width: 375px)\n  and (max-device-width: 667px)\n  and (-webkit-min-device-pixel-ratio: 2)\n  and (orientation: portrait) {\n    .img-container {\n      width: 90%;\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n    }\n\n    .img-div {\n      width: calc(100%/2);\n    }\n\n    .img-div img {\n      width: 100%;\n    }\n\n}\n", ""]);
+	exports.push([module.id, ".img-container {\n  width: 90%;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.img-div {\n  width: 100%;\n}\n\n.img-div img {\n  width: 100%;\n}\n\n\n\n@media (min-width: 768px) {\n  .img-div {\n    width: calc(100%/2);\n  }\n}\n\n@media (min-width: 900px) {\n  .img-container {\n    max-width: 1000px;\n  }\n  .img-div {\n    width: calc(100%/3);\n  }\n}\n", ""]);
 
 	// exports
 
