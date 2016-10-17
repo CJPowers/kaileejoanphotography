@@ -1,3 +1,9 @@
+.image-holder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .img-container {
   width: 90%;
   display: flex;
@@ -11,6 +17,10 @@
 
 .img-div img {
   width: 100%;
+}
+
+.hide {
+  display: none;
 }
 
 
